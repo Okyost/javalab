@@ -49,7 +49,6 @@ public class Point3d {
     public static boolean pointsToPoints(Point3d cord1, Point3d cord2) {
         double[] cord_1 = new double[]{cord1.getX(), cord1.getY(), cord1.getZ()};
         double[] cord_2 = new double[]{cord2.getX(), cord2.getY(), cord2.getZ()};
-        double[] cord_3 = new double[]{cord2.getX(), cord2.getY(), cord2.getZ()};
 
         if (cord_1[0] == cord_2[0] && cord_1[1] == cord_2[1] && cord_1[2] == cord_2[2]) {
             return true;
