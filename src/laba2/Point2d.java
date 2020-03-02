@@ -35,7 +35,6 @@ public class Point2d {
     }
 
     public void setX(double val) {                        /** Установка значения координаты X. **/
-
         xCoord = val;
     }
 
